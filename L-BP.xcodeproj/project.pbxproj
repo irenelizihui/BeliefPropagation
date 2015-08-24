@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		044360621B46E957008E6442 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044360611B46E957008E6442 /* main.swift */; };
+		044360691B46E9D2008E6442 /* StateKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044360681B46E9D2008E6442 /* StateKeys.swift */; };
+		0443606E1B46E9E8008E6442 /* BayesianNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443606A1B46E9E8008E6442 /* BayesianNetwork.swift */; };
+		0443606F1B46E9E8008E6442 /* BeliefTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443606B1B46E9E8008E6442 /* BeliefTable.swift */; };
+		044360701B46E9E8008E6442 /* ConditionalProbability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443606C1B46E9E8008E6442 /* ConditionalProbability.swift */; };
+		044360711B46E9E8008E6442 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443606D1B46E9E8008E6442 /* Node.swift */; };
+		046036E01B48546900F4E7F0 /* StatTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046036DF1B48546900F4E7F0 /* StatTools.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		0443605E1B46E957008E6442 /* L-BP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "L-BP"; sourceTree = BUILT_PRODUCTS_DIR; };
 		044360611B46E957008E6442 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		044360681B46E9D2008E6442 /* StateKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateKeys.swift; sourceTree = "<group>"; };
+		0443606A1B46E9E8008E6442 /* BayesianNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BayesianNetwork.swift; sourceTree = "<group>"; };
+		0443606B1B46E9E8008E6442 /* BeliefTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeliefTable.swift; sourceTree = "<group>"; };
+		0443606C1B46E9E8008E6442 /* ConditionalProbability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionalProbability.swift; sourceTree = "<group>"; };
+		0443606D1B46E9E8008E6442 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		046036DF1B48546900F4E7F0 /* StatTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatTools.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +69,13 @@
 		044360601B46E957008E6442 /* L-BP */ = {
 			isa = PBXGroup;
 			children = (
+				044360681B46E9D2008E6442 /* StateKeys.swift */,
 				044360611B46E957008E6442 /* main.swift */,
+				0443606A1B46E9E8008E6442 /* BayesianNetwork.swift */,
+				0443606B1B46E9E8008E6442 /* BeliefTable.swift */,
+				0443606C1B46E9E8008E6442 /* ConditionalProbability.swift */,
+				0443606D1B46E9E8008E6442 /* Node.swift */,
+				046036DF1B48546900F4E7F0 /* StatTools.swift */,
 			);
 			path = "L-BP";
 			sourceTree = "<group>";
@@ -119,6 +137,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				044360621B46E957008E6442 /* main.swift in Sources */,
+				044360701B46E9E8008E6442 /* ConditionalProbability.swift in Sources */,
+				0443606E1B46E9E8008E6442 /* BayesianNetwork.swift in Sources */,
+				044360711B46E9E8008E6442 /* Node.swift in Sources */,
+				046036E01B48546900F4E7F0 /* StatTools.swift in Sources */,
+				044360691B46E9D2008E6442 /* StateKeys.swift in Sources */,
+				0443606F1B46E9E8008E6442 /* BeliefTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +257,7 @@
 				044360671B46E957008E6442 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
